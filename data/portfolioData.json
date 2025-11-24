@@ -1,0 +1,91 @@
+{
+  "about": {
+    "name": "Çağrı Türkmen",
+    "title": "Frontend & Web Developer",
+    "bio": "React ve Next.js konusunda yetenekli, temiz, responsive ve ölçeklenebilir UI tasarımına güçlü bir odaklanma ile tutkulu bir Frontend Developer. Component-based mimari, RESTful API entegrasyonu ve modern frontend iş akışlarında deneyimli.",
+    "image": "/images/profile.jpg"
+  },
+  "skills": {
+    "uiux": [
+      { "name": "Figma", "icon": "Figma" },
+      { "name": "UI/UX Design", "icon": "Palette" },
+      { "name": "Prototyping", "icon": "Layout" },
+      { "name": "Design Systems", "icon": "Layers" }
+    ],
+    "frontend": [
+      { "name": "React", "icon": "Code" },
+      { "name": "Next.js", "icon": "Code2" },
+      { "name": "TypeScript", "icon": "FileCode" },
+      { "name": "HTML/CSS", "icon": "Code" },
+      { "name": "JavaScript", "icon": "Code2" },
+      { "name": "Tailwind CSS", "icon": "Palette" }
+    ],
+    "tools": [
+      { "name": "Git/GitHub", "icon": "GitBranch" },
+      { "name": "VS Code", "icon": "Code" },
+      { "name": "Postman", "icon": "Package" },
+      { "name": "Vercel", "icon": "Cloud" }
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "type": "work",
+      "title": "Frontend Developer Intern",
+      "company": "IAS Industrial Application Software Türkiye",
+      "location": "Türkiye",
+      "period": "July 2024",
+      "description": "React 16'dan React 18'e geçiş planlamasında mevcut kütüphanelerin uyumluluğunu değerlendirdim ve geliştirme ekibi için detaylı rapor hazırladım. 3 kişilik ekip ile Kanban board web arayüzü tasarlayıp geliştirdim, front-end mimarisi ve component geliştirmesine odaklandım."
+    },
+    {
+      "id": 2,
+      "type": "work",
+      "title": "UI-UX Developer Intern",
+      "company": "Jotform",
+      "location": "Türkiye",
+      "period": "Aug - Sep 2024",
+      "description": "4 kişilik ekip ile Jotform'un internal Board projesinin front-end'ini geliştirdim. Figma tasarımlarını pixel-perfect, tam responsive layout'lara çevirdim. Jotform Board ürünü için analytics sayfası geliştirdim, component library ve design system ile tutarlılığı sağladım."
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "type": "education",
+      "title": "B.Sc. in Computer Engineering",
+      "company": "Çukurova University",
+      "location": "Adana, Turkey",
+      "period": "2020 - 2025",
+      "description": "GPA: 3.37"
+    },
+    {
+      "id": 2,
+      "type": "education",
+      "title": "Computer Science (Erasmus+ Program)",
+      "company": "Politechnika Lubelska",
+      "location": "Lublin, Poland",
+      "period": "2024 - 2025",
+      "description": "Erasmus+ değişim programı"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Recipe App",
+      "description": "Kullanıcıların tarifleri gözden geçirebileceği, arayabileceği ve favorilerini kaydedebileceği mobil uyumlu bir tarif uygulaması geliştirdim. Form validasyonu, bildirimler ve state persistence uygulayarak kullanıcı deneyimini geliştirdim.",
+      "technologies": ["Next.js", "Redux Toolkit", "Material UI", "Axios", "Formik", "JSON Server"],
+      "image": "/images/project1.jpg",
+      "demo": "https://recipe-app-demo.vercel.app",
+      "github": "https://github.com/cagriturkmenn/recipe-app"
+    },
+    {
+      "id": 2,
+      "title": "Cargo Tracking System",
+      "description": "Gerçek zamanlı kargo takibi, harita tabanlı konum gösterimi ve detaylı analytics dashboard'ları sağlayan full-stack kargo takip sistemi tasarlayıp geliştirdim. Authentication, bildirimler ve responsive tasarım entegre ettim.",
+      "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "MUI", "JWT"],
+      "image": "/images/project2.jpg",
+      "demo": "https://cargo-tracking-demo.vercel.app",
+      "github": "https://github.com/cagriturkmenn/cargo-tracking"
+    }
+  ]
+}
+
