@@ -1,0 +1,44 @@
+/* Tailwind CSS direktifleri - Bu satırlar Tailwind'in temel stillerini yükler */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Değişkenleri - Dark mode için kullanacağız */
+:root {
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+}
+
+/* Dark mode aktif olduğunda */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* Global stiller */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Smooth scroll - Sayfa içi linklerde yumuşak kaydırma */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body stilleri */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* Dark mode geçişi için animasyon */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Tailwind utility - Metin dengesi (satır sonlarını optimize eder) */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
