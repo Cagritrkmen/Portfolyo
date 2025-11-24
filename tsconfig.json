@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    // JavaScript'in hangi versiyonuna derleneceği
+    "target": "ES2017",
+    
+    // Hangi kütüphaneleri kullanabileceğimiz (DOM = tarayıcı API'leri)
+    "lib": ["dom", "dom.iterable", "esnext"],
+    
+    // JavaScript dosyalarını da kabul et (kademeli geçiş için)
+    "allowJs": true,
+    
+    // Type tanımlarını kontrol etme (daha hızlı)
+    "skipLibCheck": true,
+    
+    // Sıkı tip kontrolü - BURASI ÖNEMLİ! Hataları yakalar
+    "strict": true,
+    
+    // JavaScript dosyası üretme (sadece tip kontrolü)
+    "noEmit": true,
+    
+    // ES6 modül sistemi kullan
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    
+    // JSON dosyalarını import edebilme
+    "resolveJsonModule": true,
+    
+    // Her dosyayı izole olarak kontrol et
+    "isolatedModules": true,
+    
+    // JSX syntax'ını koru (React için)
+    "jsx": "preserve",
+    
+    // Artımlı derleme (daha hızlı)
+    "incremental": true,
+    
+    // Next.js plugin'i
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    
+    // Path alias'ları (@/* = root klasör)
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  
+  // Hangi dosyaları kontrol edecek
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  
+  // Hangi klasörleri hariç tutacak
+  "exclude": ["node_modules"]
+}
+
