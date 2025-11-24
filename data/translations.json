@@ -30,7 +30,13 @@
       "send": "Gönder",
       "sending": "Gönderiliyor...",
       "success": "Mesajınız başarıyla gönderildi!",
-      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "socialMedia": "Sosyal Medya",
+      "contactInfo": "İletişim Bilgileri"
+    },
+    "footer": {
+      "madeBy": "Çağrı Türkmen tarafından yapılmıştır",
+      "rights": "Tüm hakları saklıdır"
     },
     "skills": {
       "title": "Yetenekler",
@@ -50,6 +56,23 @@
     },
     "cv": {
       "download": "CV'mi İndir"
+    },
+    "data": {
+      "about": {
+        "bio": "React ve Next.js konusunda yetenekli, temiz, responsive ve ölçeklenebilir UI tasarımına güçlü bir odaklanma ile tutkulu bir Frontend Developer. Component-based mimari, RESTful API entegrasyonu ve modern frontend iş akışlarında deneyimli."
+      },
+      "experience": {
+        "ias": "React 16'dan React 18'e geçiş planlamasında mevcut kütüphanelerin uyumluluğunu değerlendirdim ve geliştirme ekibi için detaylı rapor hazırladım. 3 kişilik ekip ile Kanban board web arayüzü tasarlayıp geliştirdim, front-end mimarisi ve component geliştirmesine odaklandım.",
+        "jotform": "4 kişilik ekip ile Jotform'un internal Board projesinin front-end'ini geliştirdim. Figma tasarımlarını pixel-perfect, tam responsive layout'lara çevirdim. Jotform Board ürünü için analytics sayfası geliştirdim, component library ve design system ile tutarlılığı sağladım."
+      },
+      "education": {
+        "erasmus": "Erasmus+ değişim programı"
+      },
+      "projects": {
+        "recipeApp": "Kullanıcıların tarifleri gözden geçirebileceği, arayabileceği ve favorilerini kaydedebileceği mobil uyumlu bir tarif uygulaması geliştirdim. Form validasyonu, bildirimler ve state persistence uygulayarak kullanıcı deneyimini geliştirdim.",
+        "cargoTracking": "Gerçek zamanlı kargo takibi, harita tabanlı konum gösterimi ve detaylı analytics dashboard'ları sağlayan full-stack kargo takip sistemi tasarlayıp geliştirdim. Authentication, bildirimler ve responsive tasarım entegre ettim.",
+        "lamumuGame": "Lamumu kripto ekosistemi için özel olarak tasarlanmış, maskot temalı interaktif bir hafıza ve eşleştirme oyunu geliştirdim. React state yönetimi ile karmaşık oyun mantığını (matching logic) kurdum, kullanıcı etkileşimlerini animasyonlarla zenginleştirdim ve responsive tasarım ile tüm cihazlarda akıcı bir oyun deneyimi sağladım."
+      }
     }
   },
   "en": {
@@ -83,7 +106,13 @@
       "send": "Send",
       "sending": "Sending...",
       "success": "Your message has been sent successfully!",
-      "error": "Something went wrong. Please try again."
+      "error": "Something went wrong. Please try again.",
+      "socialMedia": "Social Media",
+      "contactInfo": "Contact Information"
+    },
+    "footer": {
+      "madeBy": "Made by Çağrı Türkmen",
+      "rights": "All rights reserved"
     },
     "skills": {
       "title": "Skills",
@@ -103,6 +132,23 @@
     },
     "cv": {
       "download": "Download My CV"
+    },
+    "data": {
+      "about": {
+        "bio": "Passionate Frontend Developer skilled in React and Next.js, with a strong focus on clean, responsive, and scalable UI design. Experienced in component-based architecture, RESTful API integration, and modern frontend workflows."
+      },
+      "experience": {
+        "ias": "Evaluated the compatibility of existing React 16 libraries with React 18 during migration planning and prepared a detailed report for the development team. Collaborated with a 3-member team to design and build a Kanban board web interface, focusing on the front-end architecture and component development.",
+        "jotform": "Worked with a 4-member team to build the front-end of Jotform's internal Board project. Translated Figma designs into pixel-perfect, fully responsive layouts using Jotform CSS and pure CSS. Developed an analytics page for the Jotform Board product, ensuring consistency with the component library and design system."
+      },
+      "education": {
+        "erasmus": "Erasmus+ exchange program"
+      },
+      "projects": {
+        "recipeApp": "Developed a mobile-friendly recipe application where users can browse, search, and save their favorite recipes. Implemented form validation, notifications, and state persistence to enhance user experience.",
+        "cargoTracking": "Designed and built a full-stack cargo tracking system enabling real-time shipment monitoring, map-based location display, and detailed analytics dashboards. Integrated authentication, notifications, and responsive design for optimal usability.",
+        "lamumuGame": "Developed a mascot-themed interactive memory and matching game specifically designed for the Lamumu crypto ecosystem. Built complex game logic (matching logic) with React state management, enriched user interactions with animations, and ensured a smooth gaming experience across all devices with responsive design."
+      }
     }
   }
 }

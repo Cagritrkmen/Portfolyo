@@ -104,7 +104,7 @@ export function Header() {
               variant="outline"
               size="sm"
               onClick={downloadCV}
-              className="hidden md:flex"
+              className="hidden md:flex whitespace-nowrap min-w-[180px]"
             >
               <Download className="w-4 h-4 mr-2 flex-shrink-0" />
               {t("cv.download")}
@@ -146,7 +146,7 @@ export function Header() {
                   variant="outline"
                   size="sm"
                   onClick={downloadCV}
-                  className="mt-2"
+                  className="mt-2 whitespace-nowrap min-w-[200px]"
                 >
                   <Download className="w-4 h-4 mr-2 flex-shrink-0" />
                   {t("cv.download")}

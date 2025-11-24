@@ -2,8 +2,19 @@
   "about": {
     "name": "Çağrı Türkmen",
     "title": "Frontend & Web Developer",
-    "bio": "React ve Next.js konusunda yetenekli, temiz, responsive ve ölçeklenebilir UI tasarımına güçlü bir odaklanma ile tutkulu bir Frontend Developer. Component-based mimari, RESTful API entegrasyonu ve modern frontend iş akışlarında deneyimli.",
-    "image": "/images/profile.jpg"
+    "image": "/images/profile.jpg",
+    "email": "Cagritrkmn33@gmail.com",
+    "phone": "+90 544 880 13 45",
+    "location": {
+      "tr": "Mut/Mersin, Türkiye",
+      "en": "Mut/Mersin, Turkey"
+    },
+    "social": {
+      "linkedin": "https://linkedin.com/in/cagriturkmenn",
+      "github": "https://github.com/cagriturkmenn",
+      "email": "mailto:Cagritrkmn33@gmail.com",
+      "whatsapp": "https://wa.me/905448801345"
+    }
   },
   "skills": {
     "uiux": [
@@ -33,18 +44,24 @@
       "type": "work",
       "title": "Frontend Developer Intern",
       "company": "IAS Industrial Application Software Türkiye",
-      "location": "Türkiye",
+      "location": {
+        "tr": "Türkiye",
+        "en": "Turkey"
+      },
       "period": "July 2024",
-      "description": "React 16'dan React 18'e geçiş planlamasında mevcut kütüphanelerin uyumluluğunu değerlendirdim ve geliştirme ekibi için detaylı rapor hazırladım. 3 kişilik ekip ile Kanban board web arayüzü tasarlayıp geliştirdim, front-end mimarisi ve component geliştirmesine odaklandım."
+      "descriptionKey": "ias"
     },
     {
       "id": 2,
       "type": "work",
       "title": "UI-UX Developer Intern",
       "company": "Jotform",
-      "location": "Türkiye",
+      "location": {
+        "tr": "Türkiye",
+        "en": "Turkey"
+      },
       "period": "Aug - Sep 2024",
-      "description": "4 kişilik ekip ile Jotform'un internal Board projesinin front-end'ini geliştirdim. Figma tasarımlarını pixel-perfect, tam responsive layout'lara çevirdim. Jotform Board ürünü için analytics sayfası geliştirdim, component library ve design system ile tutarlılığı sağladım."
+      "descriptionKey": "jotform"
     }
   ],
   "education": [
@@ -64,27 +81,36 @@
       "company": "Politechnika Lubelska",
       "location": "Lublin, Poland",
       "period": "2024 - 2025",
-      "description": "Erasmus+ değişim programı"
+      "descriptionKey": "erasmus"
     }
   ],
   "projects": [
     {
       "id": 1,
       "title": "Recipe App",
-      "description": "Kullanıcıların tarifleri gözden geçirebileceği, arayabileceği ve favorilerini kaydedebileceği mobil uyumlu bir tarif uygulaması geliştirdim. Form validasyonu, bildirimler ve state persistence uygulayarak kullanıcı deneyimini geliştirdim.",
+      "descriptionKey": "recipeApp",
       "technologies": ["Next.js", "Redux Toolkit", "Material UI", "Axios", "Formik", "JSON Server"],
       "image": "/images/project1.jpg",
-      "demo": "https://recipe-app-demo.vercel.app",
-      "github": "https://github.com/cagriturkmenn/recipe-app"
+      "demo": "https://recipe-app-beta-three.vercel.app/",
+      "github": "https://github.com/Cagritrkmen/RecipeApp"
     },
     {
       "id": 2,
       "title": "Cargo Tracking System",
-      "description": "Gerçek zamanlı kargo takibi, harita tabanlı konum gösterimi ve detaylı analytics dashboard'ları sağlayan full-stack kargo takip sistemi tasarlayıp geliştirdim. Authentication, bildirimler ve responsive tasarım entegre ettim.",
+      "descriptionKey": "cargoTracking",
       "technologies": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "MUI", "JWT"],
       "image": "/images/project2.jpg",
-      "demo": "https://cargo-tracking-demo.vercel.app",
-      "github": "https://github.com/cagriturkmenn/cargo-tracking"
+      "demo": "https://cargo-tracking-eight.vercel.app/",
+      "github": "https://github.com/Cagritrkmen/CargoTracking"
+    },
+    {
+      "id": 3,
+      "title": "Lamumu Pair Game",
+      "descriptionKey": "lamumuGame",
+      "technologies": ["React", "Pure Css", "JavaScript"],
+      "image": "/images/project3.jpg",
+      "demo": "https://lamumupair-game.vercel.app/", 
+      "github": "https://github.com/Cagritrkmen/lamumupair-game"
     }
   ]
 }
