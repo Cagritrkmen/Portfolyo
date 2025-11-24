@@ -1,0 +1,109 @@
+{
+  "tr": {
+    "nav": {
+      "about": "Hakkımda",
+      "skills": "Yetenekler",
+      "experience": "Deneyim",
+      "projects": "Projeler",
+      "contact": "İletişim"
+    },
+    "hero": {
+      "title": "Merhaba, Ben",
+      "name": "Çağrı Türkmen",
+      "subtitle": "Frontend & Web Developer",
+      "description": "React ve Next.js konusunda yetenekli, temiz, responsive ve ölçeklenebilir UI tasarımına odaklanan tutkulu bir Frontend Developer. Kullanıcı odaklı web uygulamaları geliştirmeye adanmış.",
+      "cta": "Projelerimi Keşfet"
+    },
+    "about": {
+      "title": "Hakkımda",
+      "bio": "React ve Next.js konusunda yetenekli, temiz, responsive ve ölçeklenebilir UI tasarımına güçlü bir odaklanma ile tutkulu bir Frontend Developer. Component-based mimari, RESTful API entegrasyonu ve modern frontend iş akışlarında deneyimli. Performans, erişilebilirlik ve görsel tasarımı dengeleyen kullanıcı odaklı web uygulamaları oluşturmaya adanmış."
+    },
+    "contact": {
+      "title": "İletişim",
+      "subtitle": "Bir proje üzerinde çalışmak ister misiniz? Bana ulaşın!",
+      "email": "Cagritrkmn33@gmail.com",
+      "phone": "+90 544 880 13 45",
+      "location": "Mut/Mersin, Türkiye",
+      "name": "Ad",
+      "emailLabel": "E-posta",
+      "message": "Mesaj",
+      "send": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "skills": {
+      "title": "Yetenekler",
+      "uiux": "UI/UX Becerileri",
+      "frontend": "Frontend Teknolojileri",
+      "tools": "Araçlar/Diğer"
+    },
+    "timeline": {
+      "title": "Deneyim & Eğitim",
+      "work": "İş Deneyimi",
+      "education": "Eğitim"
+    },
+    "projects": {
+      "title": "Projeler",
+      "viewDemo": "Demo'yu Gör",
+      "viewCode": "Kodu Gör"
+    },
+    "cv": {
+      "download": "CV'mi İndir"
+    }
+  },
+  "en": {
+    "nav": {
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Hello, I'm",
+      "name": "Çağrı Türkmen",
+      "subtitle": "Frontend & Web Developer",
+      "description": "Passionate Frontend Developer skilled in React and Next.js, with a strong focus on clean, responsive, and scalable UI design. Dedicated to building user-centric web applications.",
+      "cta": "Explore My Projects"
+    },
+    "about": {
+      "title": "About Me",
+      "bio": "Passionate Frontend Developer skilled in React and Next.js, with a strong focus on clean, responsive, and scalable UI design. Experienced in component-based architecture, RESTful API integration, and modern frontend workflows. Dedicated to building user-centric web applications that balance performance, accessibility, and visual design."
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Want to work on a project together? Get in touch!",
+      "email": "Cagritrkmn33@gmail.com",
+      "phone": "+90 544 880 13 45",
+      "location": "Mut/Mersin, Turkey",
+      "name": "Name",
+      "emailLabel": "Email",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "Something went wrong. Please try again."
+    },
+    "skills": {
+      "title": "Skills",
+      "uiux": "UI/UX Skills",
+      "frontend": "Frontend Technologies",
+      "tools": "Tools/Others"
+    },
+    "timeline": {
+      "title": "Experience & Education",
+      "work": "Work Experience",
+      "education": "Education"
+    },
+    "projects": {
+      "title": "Projects",
+      "viewDemo": "View Demo",
+      "viewCode": "View Code"
+    },
+    "cv": {
+      "download": "Download My CV"
+    }
+  }
+}
+
