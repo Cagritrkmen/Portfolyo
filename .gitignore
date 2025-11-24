@@ -1,0 +1,34 @@
+# Dependencies - node_modules klasörünü Git'e ekleme
+node_modules
+/.pnp
+.pnp.js
+
+# Testing - test coverage dosyaları
+/coverage
+
+# Next.js - build ve cache klasörleri
+/.next/
+/out/
+
+# Production - production build
+/build
+
+# Misc - sistem dosyaları
+.DS_Store
+*.pem
+
+# Debug - log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files - environment değişkenleri (gizli bilgiler)
+.env*.local
+
+# Vercel - deployment platformu
+.vercel
+
+# TypeScript - build info
+*.tsbuildinfo
+next-env.d.ts
+
