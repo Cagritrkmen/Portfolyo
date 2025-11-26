@@ -1,7 +1,7 @@
-import { HTMLAttributes, forwardRef } from "react";
-import { motion } from "framer-motion";
+import { forwardRef } from "react";
+import { motion, HTMLMotionProps } from "framer-motion";
 
-interface CardProps extends HTMLAttributes<HTMLDivElement> {
+interface CardProps extends Omit<HTMLMotionProps<"div">, "onDrag" | "onDragStart" | "onDragEnd"> {
   hover?: boolean;
 }
 
