@@ -11,17 +11,17 @@
       "title": "Merhaba, Ben",
       "name": "Çağrı Türkmen",
       "subtitle": "Frontend & Web Developer",
-      "description": "React ve Next.js konusunda yetenekli, temiz, responsive ve ölçeklenebilir UI tasarımına odaklanan tutkulu bir Frontend Developer. Kullanıcı odaklı web uygulamaları geliştirmeye adanmış.",
+      "description": "React ve Next.js konusundaki yeteneklerimi kullanarak temiz, tüm cihazlara uyumlu (responsive) ve kolay büyütülebilir (ölçeklenebilir) arayüzler tasarlayan tutkulu bir Frontend Developer'ım.",
       "cta": "Projelerimi Keşfet"
     },
     "about": {
       "title": "Hakkımda",
-      "bio": "React ve Next.js konusunda yetenekli, temiz, responsive ve ölçeklenebilir UI tasarımına güçlü bir odaklanma ile tutkulu bir Frontend Developer. Component-based mimari, RESTful API entegrasyonu ve modern frontend iş akışlarında deneyimli. Performans, erişilebilirlik ve görsel tasarımı dengeleyen kullanıcı odaklı web uygulamaları oluşturmaya adanmış."
+      "bio": "React ve Next.js konusundaki yeteneklerimi kullanarak temiz, tüm cihazlara uyumlu (responsive) ve kolay büyütülebilir (ölçeklenebilir) arayüzler tasarlayan tutkulu bir Frontend Developer'ım."
     },
     "contact": {
       "title": "İletişim",
       "subtitle": "Bir proje üzerinde çalışmak ister misiniz? Bana ulaşın!",
-      "email": "Cagritrkmn33@gmail.com",
+      "email": "cagritrkmn33@gmail.com",
       "phone": "+90 544 880 13 45",
       "location": "Mut/Mersin, Türkiye",
       "name": "Ad",
@@ -59,7 +59,7 @@
     },
     "data": {
       "about": {
-        "bio": "React ve Next.js konusunda yetenekli, temiz, responsive ve ölçeklenebilir UI tasarımına güçlü bir odaklanma ile tutkulu bir Frontend Developer. Component-based mimari, RESTful API entegrasyonu ve modern frontend iş akışlarında deneyimli."
+        "bio": "React ve Next.js konusunda yetkin, tutkulu bir Frontend Developer'ım. Temiz, duyarlı (responsive) ve ölçeklenebilir kullanıcı arayüzü (UI) tasarımına güçlü bir şekilde odaklanıyorum. Bileşen tabanlı mimari, RESTful API entegrasyonu ve modern frontend iş akışlarında deneyimliyim. Performans, erişilebilirlik ve görsel tasarımı dengeleyen, tamamen kullanıcı odaklı web uygulamaları geliştirmeye adanmış durumdayım."
       },
       "experience": {
         "ias": "React 16'dan React 18'e geçiş planlamasında mevcut kütüphanelerin uyumluluğunu değerlendirdim ve geliştirme ekibi için detaylı rapor hazırladım. 3 kişilik ekip ile Kanban board web arayüzü tasarlayıp geliştirdim, front-end mimarisi ve component geliştirmesine odaklandım.",
@@ -87,7 +87,7 @@
       "title": "Hello, I'm",
       "name": "Çağrı Türkmen",
       "subtitle": "Frontend & Web Developer",
-      "description": "Passionate Frontend Developer skilled in React and Next.js, with a strong focus on clean, responsive, and scalable UI design. Dedicated to building user-centric web applications.",
+      "description": "I am a passionate Frontend Developer who designs clean, responsive, and easily scalable interfaces using my expertise in React and Next.js. I am dedicated to creating user-centric web applications.",
       "cta": "Explore My Projects"
     },
     "about": {
