@@ -6,8 +6,15 @@ import { ArrowUp } from "lucide-react";
 
 export function BackToTop() {
   const [isVisible, setIsVisible] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+    
     const toggleVisibility = () => {
       if (window.scrollY > 300) {
         setIsVisible(true);
@@ -18,7 +25,7 @@ export function BackToTop() {
 
     window.addEventListener("scroll", toggleVisibility, { passive: true });
     return () => window.removeEventListener("scroll", toggleVisibility);
-  }, []);
+  }, [mounted]);
 
   const scrollToTop = () => {
     window.scrollTo({

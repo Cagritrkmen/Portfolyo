@@ -5,8 +5,15 @@ import { motion } from "framer-motion";
 
 export function ScrollProgress() {
   const [scrollProgress, setScrollProgress] = useState(0);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+    
     const updateScrollProgress = () => {
       const scrollPx = document.documentElement.scrollTop;
       const winHeightPx =
@@ -22,7 +29,7 @@ export function ScrollProgress() {
     return () => {
       window.removeEventListener("scroll", updateScrollProgress);
     };
-  }, []);
+  }, [mounted]);
 
   return (
     <div className="fixed top-0 left-0 right-0 h-1 bg-blue-500/20 dark:bg-blue-500/30 z-[100]">
