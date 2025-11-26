@@ -20,8 +20,8 @@ export function Timeline() {
   });
 
   return (
-    <Section id="timeline" className="bg-gray-50 dark:bg-gray-950">
-      <div className="container mx-auto px-4 md:px-6 lg:px-8">
+    <Section id="timeline" className="bg-gray-100 dark:bg-gray-900">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 pb-1">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -35,7 +35,7 @@ export function Timeline() {
 
         <div className="max-w-3xl mx-auto">
           <div className="relative">
-            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gray-300 dark:bg-gray-700 transform md:-translate-x-1/2" />
+            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 via-blue-500 to-cyan-500 transform md:-translate-x-1/2 opacity-40 dark:opacity-30" />
             
             {allItems.map((item, index) => {
               const Icon = item.type === "work" ? Briefcase : GraduationCap;
@@ -51,12 +51,22 @@ export function Timeline() {
                 >
                   <div className="md:flex md:items-start md:gap-4">
                     <div className="absolute left-0 md:relative md:left-auto flex-shrink-0">
-                      <div className="w-8 h-8 rounded-full bg-foreground flex items-center justify-center text-background shadow-lg relative z-10">
-                        <Icon className="w-4 h-4" />
-                      </div>
+                      <motion.div 
+                        className="relative"
+                        whileHover={{ scale: 1.15, rotate: 5 }}
+                        transition={{ type: "spring", stiffness: 300 }}
+                      >
+                        <div className="absolute inset-0 bg-blue-500 rounded-full blur-md opacity-40 dark:opacity-30" />
+                        <div className="relative w-8 h-8 rounded-full bg-blue-500 dark:bg-blue-600 flex items-center justify-center text-white shadow-lg z-10 border-2 border-white dark:border-gray-900">
+                          <Icon className="w-4 h-4" />
+                        </div>
+                      </motion.div>
                     </div>
                     <div className="flex-1">
-                      <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6 border border-gray-200 dark:border-gray-800">
+                      <motion.div 
+                        className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6 border border-gray-200 dark:border-gray-800 hover:shadow-xl hover:border-blue-400 dark:hover:border-blue-600 hover:bg-blue-50/50 dark:hover:bg-blue-950/30 transition-all duration-300"
+                        whileHover={{ x: 5 }}
+                      >
                         <div className="flex items-center gap-2 mb-2">
                           <span className="text-xs font-semibold text-foreground/60 uppercase tracking-wider">
                             {item.type === "work" ? t("timeline.work") : t("timeline.education")}
@@ -70,9 +80,9 @@ export function Timeline() {
                         <p className="text-foreground/80 leading-relaxed">
                           {item.descriptionKey 
                             ? t(`data.${item.type === "work" ? "experience" : "education"}.${item.descriptionKey}`) 
-                            : (item.description || "")}
+                            : ("description" in item ? item.description : "")}
                         </p>
-                      </div>
+                      </motion.div>
                     </div>
                   </div>
                 </motion.div>

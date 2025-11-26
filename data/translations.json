@@ -62,8 +62,8 @@
         "bio": "React ve Next.js konusunda yetkin, tutkulu bir Frontend Developer'ım. Temiz, duyarlı (responsive) ve ölçeklenebilir kullanıcı arayüzü (UI) tasarımına güçlü bir şekilde odaklanıyorum. Bileşen tabanlı mimari, RESTful API entegrasyonu ve modern frontend iş akışlarında deneyimliyim. Performans, erişilebilirlik ve görsel tasarımı dengeleyen, tamamen kullanıcı odaklı web uygulamaları geliştirmeye adanmış durumdayım."
       },
       "experience": {
-        "ias": "React 16'dan React 18'e geçiş planlamasında mevcut kütüphanelerin uyumluluğunu değerlendirdim ve geliştirme ekibi için detaylı rapor hazırladım. 3 kişilik ekip ile Kanban board web arayüzü tasarlayıp geliştirdim, front-end mimarisi ve component geliştirmesine odaklandım.",
-        "jotform": "4 kişilik ekip ile Jotform'un internal Board projesinin front-end'ini geliştirdim. Figma tasarımlarını pixel-perfect, tam responsive layout'lara çevirdim. Jotform Board ürünü için analytics sayfası geliştirdim, component library ve design system ile tutarlılığı sağladım."
+        "ias": "React 18’e geçiş planlaması sırasında, mevcut React 16 kütüphanelerinin uyumluluğunu değerlendirerek geliştirme ekibi için detaylı bir rapor hazırladım. 3 kişilik bir ekiple iş birliği yaparak, öncelikle front-end mimarisi ve bileşen (component) geliştirmeye odaklanıp bir Kanban panosu web arayüzü tasarladım ve hayata geçirdim. Bu süreçte modern React iş akışları, versiyon kontrolü ve ölçeklenebilir UI optimizasyonu konularındaki yetkinliğimi önemli ölçüde artırdım.",
+        "jotform": "Jotform’un Board projesinin geliştirme sürecinde 4 kişilik ekiple çalıştım. Figma tasarımlarını Jotform’un kendi CSS kütüphanesi ve pure CSS kullanarak piksel mükemmelliğinde ve tamamen duyarlı (responsive) arayüzlere dönüştürdüm; bu süreçte, ürünün analitik sayfasını geliştirerek mevcut bileşen kütüphanesi ve tasarım sistemiyle tam tutarlılığını sağladım."
       },
       "education": {
         "erasmus": "Erasmus+ değişim programı"
@@ -138,8 +138,8 @@
         "bio": "Passionate Frontend Developer skilled in React and Next.js, with a strong focus on clean, responsive, and scalable UI design. Experienced in component-based architecture, RESTful API integration, and modern frontend workflows."
       },
       "experience": {
-        "ias": "Evaluated the compatibility of existing React 16 libraries with React 18 during migration planning and prepared a detailed report for the development team. Collaborated with a 3-member team to design and build a Kanban board web interface, focusing on the front-end architecture and component development.",
-        "jotform": "Worked with a 4-member team to build the front-end of Jotform's internal Board project. Translated Figma designs into pixel-perfect, fully responsive layouts using Jotform CSS and pure CSS. Developed an analytics page for the Jotform Board product, ensuring consistency with the component library and design system."
+        "ias": "Evaluated the compatibility of existing React 16 libraries with React 18 during migration planning and prepared a detailed technical report for the development team. Collaborated with a 3-member team to design and implement a Kanban board web interface, with a primary focus on the front-end architecture and component development. Significantly enhanced skills in modern React workflows, version control, and scalable UI optimization.",
+        "jotform": "Worked within a 4-member team on the development of Jotform's Board project. I translated Figma designs into pixel-perfect, fully responsive layouts using Jotform's proprietary CSS library and pure CSS. During this process, I developed the product's analytics page, ensuring complete consistency with the existing component library and design system."
       },
       "education": {
         "erasmus": "Erasmus+ exchange program"

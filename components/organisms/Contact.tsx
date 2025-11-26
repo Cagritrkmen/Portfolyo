@@ -72,8 +72,8 @@ export function Contact() {
   };
 
   return (
-    <Section id="contact" className="bg-gray-50 dark:bg-gray-950">
-      <div className="container mx-auto px-4 md:px-6 lg:px-8">
+    <Section id="contact" className="bg-gray-100 dark:bg-gray-900">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 pb-1">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -98,20 +98,22 @@ export function Contact() {
             <Card>
               <h3 className="text-xl font-bold mb-6">{t("contact.contactInfo")}</h3>
               <div className="space-y-4">
-                <a
+                <motion.a
                   href={`mailto:${portfolioData.about.email}`}
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group"
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-950/50 transition-all duration-300 group border border-transparent hover:border-blue-200 dark:hover:border-blue-800"
+                  whileHover={{ x: 5, scale: 1.02 }}
                 >
-                  <Mail className="w-5 h-5 text-foreground/70 group-hover:text-foreground" />
-                  <span className="text-foreground/80 group-hover:text-foreground">{portfolioData.about.email}</span>
-                </a>
-                <a
+                  <Mail className="w-5 h-5 text-foreground/70 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors" />
+                  <span className="text-foreground/80 group-hover:text-foreground font-medium">{portfolioData.about.email}</span>
+                </motion.a>
+                <motion.a
                   href={`tel:${portfolioData.about.phone.replace(/\s/g, "")}`}
-                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group"
+                  className="flex items-center gap-3 p-3 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-950/50 transition-all duration-300 group border border-transparent hover:border-blue-200 dark:hover:border-blue-800"
+                  whileHover={{ x: 5, scale: 1.02 }}
                 >
-                  <Phone className="w-5 h-5 text-foreground/70 group-hover:text-foreground" />
+                  <Phone className="w-5 h-5 text-foreground/70 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors" />
                   <span className="text-foreground/80 group-hover:text-foreground">{portfolioData.about.phone}</span>
-                </a>
+                </motion.a>
                 <div className="flex items-center gap-3 p-3 rounded-lg">
                   <MapPin className="w-5 h-5 text-foreground/70" />
                   <span className="text-foreground/80">

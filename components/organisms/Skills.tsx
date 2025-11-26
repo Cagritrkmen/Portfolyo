@@ -48,12 +48,26 @@ export function Skills() {
                   whileInView={{ opacity: 1, scale: 1 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1, duration: 0.3 }}
-                  className="flex flex-col items-center p-4 rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                  whileHover={{ scale: 1.05, y: -5 }}
+                  className="flex flex-col items-center p-4 rounded-lg bg-gray-50 dark:bg-gray-800 hover:bg-blue-50 dark:hover:bg-blue-950/30 hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-700 border border-transparent transition-all duration-300 group cursor-pointer"
                 >
                   {IconComponent && (
-                    <IconComponent className="w-8 h-8 mb-2 text-foreground" />
+                    <motion.div
+                      className="mb-2 relative"
+                      whileHover={{ rotate: [0, -10, 10, -10, 0], scale: 1.15 }}
+                      transition={{ duration: 0.5 }}
+                    >
+                      <IconComponent className="w-8 h-8 text-foreground group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300" />
+                    </motion.div>
                   )}
-                  <span className="text-sm font-medium text-center">{skill.name}</span>
+                  <span className="text-sm font-medium text-center group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">{skill.name}</span>
+                  {/* Progress bar effect on hover */}
+                  <motion.div
+                    className="absolute bottom-0 left-0 right-0 h-1 bg-blue-500 rounded-b-lg"
+                    initial={{ scaleX: 0 }}
+                    whileHover={{ scaleX: 1 }}
+                    transition={{ duration: 0.3 }}
+                  />
                 </motion.div>
               );
             })}
@@ -65,7 +79,7 @@ export function Skills() {
 
   return (
     <Section id="skills">
-      <div className="container mx-auto px-4 md:px-6 lg:px-8">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 pb-1">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

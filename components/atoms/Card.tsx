@@ -7,8 +7,8 @@ interface CardProps extends HTMLAttributes<HTMLDivElement> {
 
 export const Card = forwardRef<HTMLDivElement, CardProps>(
   ({ className = "", hover = false, children, ...props }, ref) => {
-    const baseStyles = "bg-white dark:bg-gray-900 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 p-6 transition-all duration-300";
-    const hoverStyles = hover ? "hover:shadow-xl hover:-translate-y-1" : "";
+    const baseStyles = "bg-white dark:bg-gray-900 rounded-xl shadow-lg border border-gray-200 dark:border-gray-800 p-6 transition-all duration-300 backdrop-blur-sm";
+    const hoverStyles = hover ? "hover:shadow-2xl hover:-translate-y-2 hover:shadow-purple-500/10 dark:hover:shadow-purple-500/20" : "";
 
     return (
       <motion.div
