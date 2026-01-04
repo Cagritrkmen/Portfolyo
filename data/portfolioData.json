@@ -1,7 +1,7 @@
 {
   "about": {
     "name": "Çağrı Türkmen",
-    "title": "Frontend & Web Developer",
+    "title": "Frontend Engineer",
     "image": "/images/profile.jpg",
     "email": "cagritrkmn33@gmail.com",
     "phone": "+90 544 880 13 45",
@@ -42,7 +42,7 @@
     {
       "id": 1,
       "type": "work",
-      "title": "Frontend Developer Intern",
+      "title": "Frontend Engineer Intern",
       "company": "IAS Industrial Application Software Türkiye",
       "location": {
         "tr": "Türkiye",
@@ -54,7 +54,7 @@
     {
       "id": 2,
       "type": "work",
-      "title": "UI-UX Developer Intern",
+      "title": "UI/UX Engineer Intern",
       "company": "Jotform",
       "location": {
         "tr": "Türkiye",

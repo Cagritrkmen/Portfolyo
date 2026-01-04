@@ -7,17 +7,17 @@ import { LanguageProvider } from "@/components/providers/LanguageProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Çağrı Türkmen - Frontend & Web Developer Portfolio",
-  description: "Frontend & Web Developer specializing in React, Next.js, and TypeScript. Building modern, responsive web applications with clean code and excellent UX. Open to remote/hybrid opportunities.",
+  title: "Çağrı Türkmen - Frontend Engineer Portfolio",
+  description: "Frontend Engineer specializing in React, Next.js, and TypeScript. Building modern, responsive web applications with clean code and excellent UX. Open to remote/hybrid opportunities.",
   keywords: [
     "Çağrı Türkmen",
-    "Frontend Developer",
-    "Web Developer",
-    "React Developer",
-    "Next.js Developer",
-    "TypeScript Developer",
-    "UI/UX Developer",
-    "Remote Developer",
+    "Frontend Engineer",
+    "Web Engineer",
+    "React Engineer",
+    "Next.js Engineer",
+    "TypeScript Engineer",
+    "UI/UX Engineer",
+    "Remote Engineer",
     "Portfolio",
     "Frontend Development",
     "Web Development",
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   authors: [{ name: "Çağrı Türkmen" }],
   creator: "Çağrı Türkmen",
   openGraph: {
-    title: "Çağrı Türkmen - Frontend & Web Developer",
-    description: "Frontend & Web Developer specializing in React, Next.js, and TypeScript. Open to remote/hybrid opportunities.",
+    title: "Çağrı Türkmen - Frontend Engineer",
+    description: "Frontend Engineer specializing in React, Next.js, and TypeScript. Open to remote/hybrid opportunities.",
     type: "website",
     locale: "en_US",
     alternateLocale: ["tr_TR"],
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Çağrı Türkmen - Frontend & Web Developer",
-    description: "Frontend & Web Developer specializing in React, Next.js, and TypeScript.",
+    title: "Çağrı Türkmen - Frontend Engineer",
+    description: "Frontend Engineer specializing in React, Next.js, and TypeScript.",
   },
   robots: {
     index: true,
